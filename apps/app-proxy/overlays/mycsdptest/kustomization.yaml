@@ -4,8 +4,11 @@ configMapGenerator:
   literals:
   - argoWorkflowsInsecure=true
   - cfHost=https://vadim-platform.ngrok.io
-  - cors=https://vadim-platform.ngrok.io
+  - cors=https://vadim-platform.ngrok.io http://local.codefresh.io
   - env=production
+  - argoCdUrl=http://argocd-server:80
+  - argoCdUsername=admin
+  - password=VTWtkxL0pjXjL8nG
   name: cap-app-proxy-cm
 kind: Kustomization
 namespace: mycsdptest
