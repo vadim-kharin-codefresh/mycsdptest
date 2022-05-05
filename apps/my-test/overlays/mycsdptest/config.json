@@ -1,0 +1,1 @@
+{"appName":"my-test","userGivenName":"my-test","destNamespace":"mycsdptest","destServer":"https://kubernetes.default.svc","srcPath":"apps/my-test/overlays/mycsdptest","srcRepoURL":"https://github.com/vadim-kharin-codefresh/mycsdptest.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"component","codefresh_io_internal":"true"}}
