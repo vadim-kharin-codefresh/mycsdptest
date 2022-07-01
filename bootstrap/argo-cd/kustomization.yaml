@@ -14,4 +14,4 @@ configMapGenerator:
 kind: Kustomization
 namespace: mycsdptest
 resources:
-- github.com/codefresh-io/cli-v2/manifests/argo-cd?ref=v0.0.412
+- github.com/codefresh-io/cli-v2/manifests/argo-cd?ref=v0.0.413
